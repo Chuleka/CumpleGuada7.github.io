@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.primera{
+    display: none;
+}
+
+.primera.active{
+    
+    background-color: #030E21;
+    filter: brightness(0.8);
+    width: 100vw;
+    height: 100vh;
+    display:block;
+    position:relative;
+
+}
+
+#primera button{
+    position: absolute;
+    bottom:15%;
+    right:37%;
+    background-color: #19215F;
+    border-radius:0rem;
+    color:white;
+    font-family: 'Special Elite', cursive;
+    padding:1em 1.5em;
+    border: 2px;
+    box-shadow:0px 0px 6px white ;
+}
+#merlina{
+    width: 100vw;
+    height: 100vh;
+}
+
+.invito{
+    position: absolute;
+    bottom:30%;
+    right:5%;
+    font-family: 'Special Elite', cursive;
+    font-size: 27px;
+    text-shadow: 0px 0px 11px white;
+}
+
+.segunda{
+    display: none;
+    
+}
+
+.segunda.active{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #46244C;
+    background-image: url(/css/images/fondo2.jpg) ;
+    background-size: 100% 100%;
+}
+
+.segunda .p1{
+    font-family: 'Special Elite', cursive;
+    font-size: x-large;
+    text-shadow: 0px 0px 14px white;
+}
+
+.btn{
+    width: 260px;
+    height: 80px;
+    
+    border:none;
+    background-color: #712B75;
+
+    
+}
+.card1{
+  margin: 0 auto;
+
+  border: 0px solid black;
+  width: 260px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+
+  box-shadow: 0px 0px 20px 0px #180A0A;
+}
+
+.card2{
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border: 0px solid black;
+    width: 260px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0px 0px 20px 0px #180A0A;
+}
+.card3{
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border: 0px solid black;
+    width: 260px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0px 0px 20px 0px #180A0A;
+
+}
+
+.cardImg{
+    
+    margin: 3px;
+
+    width: 50px;
+    height: 60px;
+    
+    display: flex;
+    align-items: center;
+
+    font-family: 'Special Elite', cursive;
+    font-size: large;
+}
+    
+.cuando{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+.aquehora{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+.donde{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+footer{
+    margin-top: 20px;
+    font-size: x-large;
+    font-family: 'Special Elite', cursive;
+}
+}
+
+.tercera{
+    display: none;
+}
+
+.tercera.active{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    
+
+    background-image:url(/css/images/fondo3.jpg) ;
+    background-size: 150% 100%;
+
+}
+
+.respuesta1{
+    display:none;
+}
+
+.respuesta1.active{
+    width: 250px;
+    height: 230px;
+    margin-top: 40px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 0px #180A0A;
+    background-color: #712B75;
+    display :flex;
+    flex-direction: row-reverse;
+}
+
+.respuesta1 button{
+    width: 20px;
+    height: 20px;
+}
+
+.terceraCuando{
+    font-family: 'Special Elite', cursive;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 30px
+}
+
+
+.cerrar{
+    margin: 2px;
+}
+
+.respuesta2{
+    display:none;
+}
+
+.respuesta2.active{
+    width: 250px;
+    height: 230px;
+    margin-top: 40px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 0px #180A0A;
+    background-color: #712B75;
+    display :flex;
+    flex-direction: row-reverse;
+}
+
+.horario{
+    font-family: 'Special Elite', cursive;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 34px;
+    margin-left: 29px
+}
+
+.respuesta2 button{
+    width: 20px;
+    height: 20px;
+}
+
+
+.cerrar{
+    margin: 2px;
+}
+
+.respuesta3{
+    display:none;
+}
+
+.respuesta3.active{
+    width: 250px;
+    height: 230px;
+    margin-top: 40px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 0px #180A0A;
+    background-color: #712B75;
+    display :flex;
+    flex-direction: row-reverse;
+}
+
+.donde2{
+    font-family: 'Special Elite', cursive;
+    font-size: large;
+    text-align: center;
+    margin-top: 34px;
+    margin-left: 27px
+}
+
+.respuesta3 button{
+    width: 116px;
+    height: 38px;
+}
+
+.tres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.irAlMapa{
+    width: 146px;
+    height: 40px;
+    margin-left: 29px;
+    font-family: 'Special Elite', cursive;
+    background-color:#712B75;
+    color: black;
+    border: 2px solid black;
+}
+
+
+.cerrar{
+    margin: 2px;
+}
